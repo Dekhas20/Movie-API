@@ -79,7 +79,7 @@ function handleImageError() {
   flex-direction: column;
   background: #eee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  max-width: 70vw;
+  max-width: 50vw;
   border: 1px solid #aaaaaa;
 }
 
@@ -104,13 +104,16 @@ button {
   gap: 20px;
 }
 
-.poster {
-}
-
 .info {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+@media (max-width: 1300px) {
+  .modal {
+    max-width: 70vw;
+  }
 }
 
 @media (max-width: 850px) {
