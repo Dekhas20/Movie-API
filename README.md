@@ -1,4 +1,4 @@
-# tecnoglass-movies
+# Movies
 
 ## Project setup
 ```
